@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const ExpressError = require("./expressError");
+require('dotenv').config();
 
 // Parse request bodies for JSON
 app.use(express.json());
