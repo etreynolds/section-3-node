@@ -4,7 +4,7 @@ const express = require("express");
 const ExpressError = require("../expressError");
 const router = express.Router();
 const db = require("../db");
-const { route } = require("../app");
+// const { route } = require("../app");
 
 router.get('/', async (req, res, next) => {
     try {
