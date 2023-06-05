@@ -1,8 +1,8 @@
 /** Common settings for auth-api app. */
 
 const DB_URI = (process.env.NODE_ENV === "test")
-  ? "postgresql:///express_auth_test"
-  : "postgresql:///express_auth";
+  ? "postgresql://etrain:password@localhost/express_auth_test"
+  : "postgresql://etrain:password@localhost/express_auth";
 
 const SECRET_KEY = process.env.SECRET_KEY || "fHt$TRcC%25HmE8gC'vD$!Ka%8sOt;~V,XItr+8t+)8;x}O/rSQgGyG7}o^c1')"
 
