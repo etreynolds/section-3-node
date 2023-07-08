@@ -1,0 +1,24 @@
+.NumberGame {
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 300px;
+    margin: 100px;
+    padding: 20px;
+}
+
+.winner {
+    color: forestgreen;
+}
+
+.loser {
+    color: red;
+}
+
+.winMsg {
+    color: aqua;
+}
+
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
